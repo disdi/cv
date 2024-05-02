@@ -1,126 +1,92 @@
 ---
-full_name: Johnny Codemaster
-location: Techville, Cybertopia
+full_name: Saket Sinha
+location: Berlin, Germany
 summary: >
-  Enthusiastic and innovative software developer with a knack for turning caffeine into code.
-  Armed with a wizard's wand (keyboard) and a magical hat (headphones), I've crafted digital
-  wonders for over a decade. My spells range from web enchantments to mobile charms, all sprinkled
-  with a dash of humor and a pinch of pixel-perfect precision. Seeking new quests to conquer
-  and challenges to turn into triumphs.
+  I am a Embedded System Engineer with 13 years of experience.
 
 contact_details:
-  email: johnny@codemaster.me
-  github: https://github.com/johnnycodemaster
-  linkedin: https://www.linkedin.com/in/johnnycodemaster
+  email: saket.sinha89@gmail.com
+  github: https://github.com/disdi
+  linkedin: https://www.linkedin.com/in/saket-sinha-382416199
 
 experience:
-  - title: Senior Sorcerer
-    company_name: ByteBlitz Technologies
-    company_url: https://www.byte-blitz.company/
-    dates: 01/2020 - Present
-    location: Remote, Mystical Valley
+  - title: SOFTWARE ARCHITECT
+    company_name: Mercedes-Benz
+    company_url: https://www.mercedes-benz.com/
+    dates: 08/2020 - Present
+    location: Berlin, Germany
     bullet_points:
-      - Led a team of code crusaders in developing next-gen applications and enchanting user experiences.
-      - Spearheaded the implementation of Agile spellcasting methodologies, resulting in a 30% increase in project efficiency.
-      - Designed and implemented scalable backend architectures using the latest enchanted frameworks.
-    keywords:
-      - PyroScript
-      - CharmSQL
-      - Mystic Cloud Computing
-  - title: Lead Enchanter
-    company_name: Pixel Potions Ltd
-    company_url: https://www.pixel-potions.company/
-    dates: 01/2018 - 12/2019
-    location: Hybrid, Enchanted Realm
+      - Development of Adaptive AUTOSAR standard platform components for networking control units for infotainment and ADAS ECUs.
+      - Development of virtual environment for vehicle communication bus enabling simulation of signal service exchange between different ECUs.
+      - Implemented RTL buffers to pipeline data paths over PCIe bus on Zynq Ultrascale+ Mpsoc using Vivado’s IP Core.
+  - title: SYSTEM ENGINEER
+    company_name: 1und1, IONOS
+    company_url: https://www.ionos.de/
+    dates: 02/2019 - 08/2020
+    location: Berlin, Germany
     bullet_points:
-      - Brewed potions (code) to bring stunning visuals and interactive experiences to life.
-      - Led the development of a magical mobile app, garnering 1 million downloads in its first month.
-      - Transformed design mockups into pixel-perfect realities, earning accolades from clients and users alike.
-    keywords:
-      - SorceryScript
-      - EnchantedReact
-      - PotionStyles
-      - Mystical Firebase
-  - title: Software Alchemist
-    company_name: Data Dwarves Inc
-    company_url: https://www.data-dwarves.company/
-    dates: 01/2016 - 12/2017
-    location: Remote, Arcane Forest
+      - Assist in developing core virtualization features for x86 virtualization, such as improving migration, virtio and debugging features.
+      - Design and implementation of a distributed service for launching a cluster of VMs with a flexible virtual network.
+      - Adapting internal software for automatic server provisioning to new kernel and hypervisor versions.
+  - title: Member of Technical Staff
+    company_name: AMD
+    company_url: https://www.amd.com/
+    dates: 07/2018 - 01/2019
+    location: Hyderabad, India
     bullet_points:
-      - Transmuted data into digital gold, crafting robust backend systems and arcane algorithms.
-      - Implemented machine learning spells to uncover hidden insights in vast datasets, driving business growth.
-      - Mentored apprentice alchemists, guiding them in the ways of data sorcery and software alchemy.
-    keywords:
-      - ElixirCraft
-      - AlchemyTensor
-      - Potion Pandas
-  - title: Frontend Wizard
-    company_name: Code Kingdoms Corp
-    company_url: https://www.code-kingdoms.company/
-    dates: 01/2013 - 12/2015
-    location: Enchanted Kingdom, Code Kingdoms
+      - Responsible for AMD’s new GPU ROCm SW stack bringup, debuging and testing.
+  - title: SYSTEM ENGINEER
+    company_name: Nvidia
+    company_url: https://www.nvidia.com/
+    dates: 03/2017 - 06/2018
+    location: Hyderabad, India
     bullet_points:
-      - Conjured captivating user interfaces and bewitching user interactions for web and mobile platforms.
-      - Implemented responsive enchantments, ensuring seamless experiences across devices of all sizes.
-      - Collaborated with designers to bring their visions to life, adding a touch of magic to every pixel.
-    keywords:
-      - Go#
-      - HTML6
-      - CSS Charms
-      - JS Spells
-  - title: Junior Developer
-    company_name: BitByte Brigade
-    company_url: https://www.bitbyte-brigade.company/
-    dates: 01/2010 - 12/2012
-    location: Remote, Mystic Tower
+      - Develop HAL layer and drivers for Deep Learning Accelerator to accelerate computational tasks on Nvidia Tegra ARM chipset.
+      - Integration with Android media frameworks including support for zero-copy between Camera<->encoder and Graphics<->decoder.
+      - Integrating QEMU with internal cycle-accurate device simulators for early pre-FPGA testing and debugging.
+  - title: SENIOR SOFTWARE ENGINEER
+    company_name: Aricent, Capgemini
+    company_url: https://www.capgemini.com/
+    dates: 01/2015 - 02/2017
+    location: Gurgaon, India
     bullet_points:
-      - Initiated into the mystical world of software development, honing skills in the dark arts of coding.
-      - Assisted senior wizards in debugging spells and crafting enchanting features for client projects.
-      - Learned the ancient languages of HTML, CSS, and JavaScript, laying the foundation for my magical journey.
-    keywords:
-      - EnigmaML
-      - Sorcerer's Expressions
-      - WizardJS
-      - MageQuery
+      - Developed a highly accurate prototype of Action Camera Device with pattern recognition and object detection from captured scenes.
+      - Integrated with display stack supporting 2D 3D graphics over Linux Android HAL.
+      - Panel bring-up for MIPI DSI and eDP with multiple vendors like Novatek, LG, Sharp, Panasonic etc.
+      - Ported OpenCore based OpenMax (OMX) codecs for accelerated decoding.
+  - title: SOFTWARE ENGINEER
+    company_name: Safenet, Thales Group
+    company_url: https://www.thalesgroup.com
+    dates: 13/2013 - 01/2015
+    location: Noida, India
+    bullet_points:
+      - Porting proprietary Encryption Linux Filesystem Driver the filesystem driver to newer kernel versions.
+      - Development of container based build system for building the driver on different Linux distros simultaneously.
+      - Responsible for Debugging file system issues and Bug fixes and verification.
+  - title: SOFTWARE ENGINEER
+    company_name: AE Telelink Systems
+    company_url: https://www.aetelelink.com
+    dates: 01/2012 - 12/2013
+    location: Noida, India
+    bullet_points:
+      - Developed firmware for Voice Logger product used for storing audio data.
+      - Developed FAT file system enabling logging of voiced calls in MP3 format.
+      - Developed kernel instrumentation to characterise moving multi-threaded applications to many-core systems.
 
 education:
-  - school: Magic University
-    field_of_study: Bachelor of Science in Computer Science
-    dates: 2005 - 2010
+  - school: Centre for Development of Advanced Computing
+    field_of_study: Post-Graduate Diploma Embedded System and VLSI Design
+    dates: 2011 - 2012
+  - school: Uttar Pradesh Technical University (UPTU)
+    field_of_study: Bachelor of Technology in Electronics and COmmunication
+    dates: 2007 - 2011
 
-certificates:
-  - title: Certificate in Advanced Spellcasting Techniques, Wizard Academy
-    date: 03/2022
-  - title: Certificate in Cloud Sorcery, Cloud Academy
-    url: https://www.cloud-academy.cert/johnnycodemaster
-  - title: Certificate in Cybersecurity Enchantment, Cryptic College
-    date: 07/2019
-    url: https://www.cryptic-college.cert/johnnycodemaster
-
-training:
-  - title: Training in Potion Crafting for Software Engineers, Enchanted Institute
-    dates: 01/2021 - 07/2021
-  - title: Training in Agile Spellcasting, Agile Wizards Institute
-    dates: 05/2022
-    url: https://www.agile-wizards.training/johnnycodemaster
-
-skills: [PyroScript, ElixirCraft, HTML6, WizardJS, CharmSQL, Mystic Cloud Computing, AlchemyTensor, MageQuery]
+skills: [C, C++, Python, Bash, Systemverilog, Verilog, Amaranth, Kicad]
 
 oss_projects:
-  - title: "SpellCheck.js"
-    description: A magical library for error-free incantations in JavaScript
-    url: https://www.open-source.oss/johnnycodemaster/spellcheck.js
-    note: A handy library of regex sorcery for JavaScript magic without mishaps.
-  - title: PotentCSS
-    description: Brew powerful stylesheets with ease using this CSS preprocessor
-    url: https://www.open-source.oss/johnnycodemaster/potent.css
-    note: A magical potion brewed with [ElixirCraft](https://elixircraft.site) and Enchanted Sass for flawless page prestidigitation.
-  - title: EnchantedUI
-    description: A collection of bewitching UI components for web enchanters
-    url: https://www.open-source.oss/johnnycodemaster/enchanted.ui
+  - title: "LibreCar Control"
+    description: LibreCar Control is a automotive exploration tool.
+    url: https://disdi.github.io/librecar-wiki/
+    note: A handy tool that can emulate connections inside an automotive vehicle between different protocols and buses.
 
-publications:
-  - title: "The Art of Debugging: Finding the Magic in Mistakes"
-    url: https://wizards-gazette.pub/art-of-debugging
-  - title: "Sorcery in Software: Harnessing the Power of Abstractions"
-    url: https://code-conjurors-journal.pub/sorcery-in-software
+languages: [English, German, Hindi]
