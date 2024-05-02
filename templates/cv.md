@@ -1,4 +1,4 @@
-{%- set max_exp_items_to_show = 3 -%}
+{%- set max_exp_items_to_show = 7 -%}
 
 # {{ full_name }}
 
@@ -8,6 +8,10 @@
 ## Summary
 
 {{ summary }}
+
+## Skills
+
+{{ skills|join(", ") }}.
 
 
 ## Experience
@@ -25,7 +29,6 @@ _{{ item.dates }}, {{ item.location }}_
  * {{ bullet_point -}}
 {% endfor %}
 
-_{{ item.keywords|join(", ") }}_
 {% endif -%}
 {% endfor %}
 
@@ -35,30 +38,6 @@ _{{ item.keywords|join(", ") }}_
 **{{ item.school }}**, {{ item.field_of_study }}, _{{ item.dates }}_
 {% endfor %}
 
-## Certifications
-{% for item in certificates %}
-{%- if item.url is defined and item.url|length %}
- * [{{ item.title }}]({{ item.url }})
-{%- else %}
- * {{ item.title }}
-{%- endif -%}
-{%- if item.date is defined and item.date|length %}, _{{ item.date }}_{% endif -%}
-{% endfor %}
-
-## Training
-{%- for item in training -%}
-{% if item.url is defined and item.url|length %}
- * [{{ item.title }}]({{ item.url }})
-{%- else %}
- * {{ item.title }}
-{%- endif -%}
-{%- if item.dates is defined and item.dates|length %}, _{{ item.dates }}_{% endif -%}
-{% endfor %}
-
-
-## Skills
-
-{{ skills|join(", ") }}.
 
 
 ## Open Source Projects
@@ -73,8 +52,6 @@ _{{ item.keywords|join(", ") }}_
    {%- endif %}
 {% endfor %}
 
+## Languages
 
-## Publications
-{% for item in publications %}
- * [{{ item.title }}]({{ item.url }})
-{%- endfor %}
+{{ languages|join(", ") }}.
