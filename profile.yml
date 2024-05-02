@@ -18,16 +18,16 @@ experience:
     bullet_points:
       - Development of Adaptive AUTOSAR standard platform components for networking control units for infotainment and ADAS ECUs.
       - Development of virtual environment for vehicle communication bus enabling simulation of signal service exchange between different ECUs.
-      - Implemented RTL buffers to pipeline data paths over PCIe bus on Zynq Ultrascale+ Mpsoc using Vivado’s IP Core.
+      - Implemented RTL buffers to pipeline data paths over PCIe bus on Xilinx Zynq Ultrascale+ Mpsoc with Xilinx PCIe Hard IP Cores.
   - title: SYSTEM ENGINEER
     company_name: 1und1, IONOS
     company_url: https://www.ionos.de/
     dates: 02/2019 - 08/2020
     location: Berlin, Germany
     bullet_points:
-      - Assist in developing core virtualization features for x86 virtualization, such as improving migration, virtio and debugging features.
+      - Assist in developing core virtualization features for x86 virtualization.
       - Design and implementation of a distributed service for launching a cluster of VMs with a flexible virtual network.
-      - Adapting internal software for automatic server provisioning to new kernel and hypervisor versions.
+      - Implemented Streaming IP operating the NVMe protocol fully in Programmable Logic (PL) on Xilinx FPGAs for Storage Acceleration.
   - title: Member of Technical Staff
     company_name: AMD
     company_url: https://www.amd.com/
