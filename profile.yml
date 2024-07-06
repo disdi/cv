@@ -87,6 +87,6 @@ oss_projects:
   - title: "LibreCar Control"
     description: LibreCar Control is a automotive exploration tool.
     url: https://disdi.github.io/librecar-wiki/
-    note: A handy tool that can emulate connections inside an automotive vehicle between different protocols and buses.
+    note: A handy tool that can emulate connections inside an automotive vehicle between different protocols and buses using soft-core RISC-V softcore based on Amaranth gateware-generation library and ultra-fast open FPGA tools.
 
 languages: [English, German, Hindi]
