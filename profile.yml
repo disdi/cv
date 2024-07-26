@@ -10,14 +10,14 @@ contact_details:
   linkedin: https://www.linkedin.com/in/saket-sinha-382416199
 
 experience:
-  - title: SOFTWARE ARCHITECT
+  - title: SOLUTION ARCHITECT
     company_name: Mercedes-Benz
     company_url: https://www.mercedes-benz.com/
     dates: 08/2020 - Present
     location: Berlin, Germany
     bullet_points:
       - Development of Adaptive AUTOSAR standard platform components for networking control units for infotainment and ADAS ECUs.
-      - Development of virtual environment for vehicle communication bus enabling simulation of signal service exchange between different ECUs.
+      - Development of high performance embedded vision system based on Zynq MPSoC for automotive applications with MIPI, GigEVision standards.
       - Implemented RTL buffers to pipeline data paths over PCIe bus on Xilinx Zynq Ultrascale+ Mpsoc with Xilinx PCIe Hard IP Cores.
   - title: SYSTEM ENGINEER
     company_name: 1und1, IONOS
@@ -41,38 +41,35 @@ experience:
     dates: 03/2017 - 06/2018
     location: Hyderabad, India
     bullet_points:
-      - Develop HAL layer and drivers for Deep Learning Accelerator to accelerate computational tasks on Nvidia Tegra ARM chipset.
-      - Integration with Android media frameworks including support for zero-copy between Camera<->encoder and Graphics<->decoder.
+      - Develop RTL and drivers for Deep Learning Accelerator to accelerate computational tasks used in Nvidia Tegra chipset.
       - Integrating QEMU with internal cycle-accurate device simulators for early pre-FPGA testing and debugging.
-  - title: SENIOR SOFTWARE ENGINEER
+  - title: SENIOR PLATFORM ENGINEER
     company_name: Aricent, Capgemini
     company_url: https://www.capgemini.com/
     dates: 01/2015 - 02/2017
     location: Gurgaon, India
     bullet_points:
-      - Developed a highly accurate prototype of Action Camera Device with pattern recognition and object detection from captured scenes.
-      - Integrated with display stack supporting 2D 3D graphics over Linux Android HAL.
-      - Panel bring-up for MIPI DSI and eDP with multiple vendors like Novatek, LG, Sharp, Panasonic etc.
-      - Ported OpenCore based OpenMax (OMX) codecs for accelerated decoding.
-  - title: SOFTWARE ENGINEER
+      - Developed a highly accurate prototype of Action Camera with pattern recognition and object detection from captured scenes.
+      - Design and development of Detector Interface FPGA of Camera utilising 2Gbps Aurora Link.
+      - Design and development of Signal Processing FPGA Which calculates and applies a non uniformity correction to the image.      
+  - title: SYSTEM ENGINEER
     company_name: Safenet, Thales Group
     company_url: https://www.thalesgroup.com
     dates: 13/2013 - 01/2015
     location: Noida, India
     bullet_points:
-      - Porting proprietary Encryption Linux Filesystem Driver the filesystem driver to newer kernel versions.
-      - Development of container based build system for building the driver on different Linux distros simultaneously.
-      - Responsible for Debugging file system issues and Bug fixes and verification.
-  - title: SOFTWARE ENGINEER
+      - Developing and testing FPGAs for a high speed (10 G Bps) cryptographic secure gate way.
+      - Communication with cryptographic computer for secure modes encoding / decoding with microprocessor bus interface .
+      - Development of TCL/TK scripts to ensure repeatability of the synthesis and place and route process.
+  - title: SYSTEM ENGINEER
     company_name: AE Telelink Systems
     company_url: https://www.aetelelink.com
     dates: 01/2012 - 12/2013
     location: Noida, India
     bullet_points:
-      - Developed firmware for Voice Logger product used for storing audio data.
-      - Developed FAT file system enabling logging of voiced calls in MP3 format.
-      - Developed kernel instrumentation to characterise moving multi-threaded applications to many-core systems.
-
+      - Developed gatewate and firmware for Voice Logger product used for storing audio data for signalling devices used by Indian Railways.
+      - Developed modular telecommunications system based around FPGA / ASIC coupled with high speed DAC’s and ADC’s technologies operating at sampling frequencies of 1.5 GHz.
+  
 education:
   - school: Centre for Development of Advanced Computing
     field_of_study: Post-Graduate Diploma Embedded System and VLSI Design
