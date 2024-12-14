@@ -1,6 +1,7 @@
 ---
 full_name: Saket Sinha
 location: Berlin, Germany
+nationality: German
 summary: >
   I am a Embedded System Engineer with 13 years of experience.
 
@@ -18,23 +19,25 @@ experience:
     bullet_points:
       - Development of Adaptive AUTOSAR standard platform components for networking control units for infotainment and ADAS ECUs.
       - Development of virtual environment for vehicle communication bus enabling simulation of signal service exchange between different ECUs.
-      - Implemented RTL buffers to pipeline data paths over PCIe bus on Zynq Ultrascale+ Mpsoc using Vivado’s IP Core.
+      - Implemented RTL buffers to pipeline data paths over PCIe bus on Zynq Ultrascale+ Mpsoc using Vivado’s IP Core. 
+      - Acquisition and recording of raw data from sensors and Automotive ECU through PCIe/Thunderbolt interfaces for data recorder device.
+
   - title: SYSTEM ENGINEER
     company_name: 1und1, IONOS
     company_url: https://www.ionos.de/
     dates: 02/2019 - 08/2020
     location: Berlin, Germany
     bullet_points:
-      - Assist in developing core virtualization features for x86 virtualization, such as improving migration, virtio and debugging features.
       - Design and implementation of a distributed service for launching a cluster of VMs with a flexible virtual network.
-      - Adapting internal software for automatic server provisioning to new kernel and hypervisor versions.
+      - Developement of a compute platform for users providing a variety of GPUs for model training and deployment to offer out-of-the-box AI solutions.
+
   - title: Member of Technical Staff
     company_name: AMD
     company_url: https://www.amd.com/
     dates: 07/2018 - 01/2019
     location: Hyderabad, India
     bullet_points:
-      - Responsible for AMD’s new GPU ROCm SW stack bringup, debuging and testing.
+      - Managed full digital implementation flow from RTL to GDSII for tape-outs.
   - title: SYSTEM ENGINEER
     company_name: Nvidia
     company_url: https://www.nvidia.com/
@@ -42,8 +45,8 @@ experience:
     location: Hyderabad, India
     bullet_points:
       - Develop HAL layer and drivers for Deep Learning Accelerator to accelerate computational tasks on Nvidia Tegra ARM chipset.
-      - Integration with Android media frameworks including support for zero-copy between Camera<->encoder and Graphics<->decoder.
-      - Integrating QEMU with internal cycle-accurate device simulators for early pre-FPGA testing and debugging.
+      - Led the development of custom AI accelerator IPs, achieving 3x performance improvement over baseline implementations.
+      - Developed FPGA-based emulation platforms for early software development and architecture validation.
   - title: SENIOR SOFTWARE ENGINEER
     company_name: Aricent, Capgemini
     company_url: https://www.capgemini.com/
@@ -81,7 +84,7 @@ education:
     field_of_study: Bachelor of Technology in Electronics and COmmunication
     dates: 2007 - 2011
 
-skills: [C, C++, Python, Bash, Systemverilog, Verilog, Amaranth, Kicad]
+skills: [C, C++, Python, Bash, Scala/Chisel, Systemverilog, Verilog, Amaranth, Kicad]
 
 oss_projects:
   - title: "LibreCar Control"
@@ -89,4 +92,4 @@ oss_projects:
     url: https://disdi.github.io/librecar-wiki/
     note: A handy tool that can emulate connections inside an automotive vehicle between different protocols and buses.
 
-languages: [English, German, Hindi]
+languages: [English, German, French, Hindi]

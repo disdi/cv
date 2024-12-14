@@ -14,11 +14,13 @@
 % Suppress page numbers
 \pagestyle{empty}
 
-% Set PDF properties
+% Set PDF properties (deferred so hyperref is loaded by the time it runs)
+\AtBeginDocument{
 \hypersetup{
   pdfcreator={https://github.com/rybakit/cv.template},
   pdftitle={ {{- full_name }}'s CV},
   pdfauthor={ {{- full_name -}} },
   pdfsubject={CV},
   pdfkeywords={ {{- skills|join(", ") -}} }
+}
 }
