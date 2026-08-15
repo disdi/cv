@@ -3,7 +3,7 @@ full_name: Saket Sinha
 location: Berlin, Germany
 nationality: German
 summary: >
-  I am a Embedded System Engineer with 13 years of experience.
+  I am a Embedded System Engineer with 14 years of experience.
 
 contact_details:
   email: saket.sinha89@gmail.com
@@ -19,7 +19,7 @@ experience:
     bullet_points:
       - Development of Adaptive AUTOSAR standard platform components for networking control units for infotainment and ADAS ECUs.
       - Development of virtual environment for vehicle communication bus enabling simulation of signal service exchange between different ECUs.
-      - Implemented RTL buffers to pipeline data paths over PCIe bus on Zynq Ultrascale+ Mpsoc using Vivado’s IP Core. 
+      - Designed and implemented high-performance RTL data-path pipelines over PCIe on Zynq Ultrascale+ MPSoC, optimizing data movement and system-level throughput through hardware-software co-design. 
       - Acquisition and recording of raw data from sensors and Automotive ECU through PCIe/Thunderbolt interfaces for data recorder device.
 
   - title: SYSTEM ENGINEER
@@ -37,16 +37,16 @@ experience:
     dates: 07/2018 - 01/2019
     location: Hyderabad, India
     bullet_points:
-      - Managed full digital implementation flow from RTL to GDSII for tape-outs.
+      - Managed the complete digital implementation flow (RTL → GDSII) for multiple tape-outs, gaining deep insight into micro-architectural details and the impact of hardware design decisions on software performance and compiler-visible behavior.
   - title: SYSTEM ENGINEER
     company_name: Nvidia
     company_url: https://www.nvidia.com/
     dates: 03/2017 - 06/2018
     location: Hyderabad, India
     bullet_points:
-      - Develop HAL layer and drivers for Deep Learning Accelerator to accelerate computational tasks on Nvidia Tegra ARM chipset.
-      - Led the development of custom AI accelerator IPs, achieving 3x performance improvement over baseline implementations.
-      - Developed FPGA-based emulation platforms for early software development and architecture validation.
+      - Developed low-level HAL and driver software for a custom Deep Learning Accelerator on the Tegra ARM architecture, focusing on performance-critical code paths and efficient mapping of compute workloads to specialized hardware.
+      - Led the design and optimization of custom AI accelerator IPs, achieving 3× performance gains through architecture-aware software tuning and close collaboration with hardware teams.
+      - Built FPGA-based emulation platforms to enable early software bring-up, performance analysis, and architecture validation of accelerator features.
   - title: SENIOR SOFTWARE ENGINEER
     company_name: Aricent, Capgemini
     company_url: https://www.capgemini.com/
@@ -84,12 +84,15 @@ education:
     field_of_study: Bachelor of Technology in Electronics and COmmunication
     dates: 2007 - 2011
 
-skills: [C, C++, Python, Bash, Scala/Chisel, Systemverilog, Verilog, Amaranth, Kicad]
+skills: [C, C++, LLVM, RISC-V, Python, Bash, Computer Architecture, Scala/Chisel, Systemverilog, Verilog, Amaranth, Kicad]
 
 oss_projects:
   - title: "LibreCar Control"
     description: LibreCar Control is a automotive exploration tool.
-    url: https://disdi.github.io/librecar-wiki/
+    url: https://saketsinha.de/librecar-wiki/
     note: A handy tool that can emulate connections inside an automotive vehicle between different protocols and buses.
-
-languages: [English, German, French, Hindi]
+  - title: "VexRiscv-Debug"
+    description: Open-source debug infrastructure for the VexRiscv RISC-V CPU core.
+    url: https://saketsinha.de/VexRiscv-Debug/
+    note: Implemented SWD (Serial Wire Debug) support and enhanced JTAG debugging according to the official RISC-V Debug Specification. Integrated with OpenOCD and GDB, enabling memory/register access, halt/step/breakpoints.
+languages: [English, German, Hindi]

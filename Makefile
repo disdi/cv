@@ -23,7 +23,7 @@ $(clr_info)Targets:$(clr_reset)
 endef
 
 define render
-	jinja2 --strict --extension jinja2_markdown.MarkdownExtension "$(templates_dir)/$(1)" "$(root_dir)/profile.yml"
+	jinja2 --strict --format yaml --extension jinja2_markdown.MarkdownExtension "$(templates_dir)/$(1)" "$(root_dir)/profile.yml"
 endef
 
 "$(output_dir)":

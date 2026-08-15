@@ -1,68 +1,28 @@
 # CV.template
 
-This repository serves as a template for creating personalized CVs in various formats. By following the instructions
-below, you can easily generate your own CV using YAML format for your profile information. Happy CV crafting! ✨
 
+Single-source CV generator: `profile.yml` is rendered through Jinja2 templates in `templates/` to produce Markdown, HTML, and PDF outputs. There is no application code — only data, templates, and a Makefile that drives `jinja2-cli` and `pandoc`. Originally a fork of [rybakit/cv.template](https://github.com/rybakit/cv.template).
 
-## Getting Started
+## Common commands
 
-To get started, follow these simple steps:
-
- 1. Follow the [instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-    in the GitHub documentation to create a new repository based on this one.
-
- 2. Clone the repository you just created to your local machine and navigate to the cloned directory:
-
-    ```bash
-    git clone https://github.com/<your-username>/cv.git
-    cd cv
-    ```
-
- 3. Open the [profile.yml](profile.yml) file and fill in your profile information in YAML format.
-    You can include details such as your name, contact information, education, work experience, skills, and more.
-
- 4. Optionally, customize the CV format layouts by modifying the provided templates
-    in the [templates](templates) directory.
-
- 5. Once you've filled in your profile information and customized the CV layouts, commit your changes
-    and push them to the repository:
-
-    ```bash
-    git add .
-    git commit -m "Update profile information"
-    git push origin master
-    ```
-
-
-## Automatic CV Generation
-
-Whenever you push changes to the repository, GitHub Actions automatically generate CVs in various formats
-using your profile details and the available templates. A new release will be created only if there are changes
-to the profile information or any template layout, with the updated CVs attached for easy access.
-
-You can customize the name of the generated files by modifying the [ci.yml](.github/workflows/ci.yml) workflow
-to set the `CV_FILENAME` variable. For example:
-
-```yaml
-env:
-   CV_FILENAME: J_Codemaster_CV
+```bash
+make cv         # generate all three formats into output/
+make cv-md      # markdown only
+make cv-html    # html only
+make cv-pdf     # pdf only (requires xelatex + pandoc)
+make clean      # wipe output/
 ```
 
-This configuration will generate files with the name `J_Codemaster_CV.md`, `J_Codemaster_CV.pdf`, and so on.
+`CV_FILENAME` (default `cv`) controls the output basename, e.g. `make cv CV_FILENAME=Saket_Sinha_CV`.
 
+Runtime dependencies (must be on PATH): `jinja2` (from `jinja2-cli[yaml]` — YAML is an optional extra), `jinja2_markdown`, `pandoc`, `xelatex` (texlive-xetex + recommended/extra font packages).
 
-## Supported Formats and Templates
+```bash
+pipx install 'jinja2-cli[yaml]'
+pipx inject jinja2-cli jinja2_markdown
+# or: pip install -r requirements.txt
+```
 
-Currently, there are three available formats for generating CVs: Markdown, HTML, and PDF.
-The layout templates are provided in [Jinja](https://jinja.palletsprojects.com/en/3.1.x/) file format:
+The CI workflow `.github/workflows/ci.yml` documents the exact apt + pip install line.
 
- * **Markdown**: Located at [cv.md](templates/cv.md).
- * **HTML**: Located at [cv.html](templates/cv.html).
- * **PDF**: Generated from the Markdown template.
-
-Feel free to customize these templates to your needs.
-
-
-## License
-
-All the source code in this repository is released under the MIT License. See the bundled [LICENSE](LICENSE) file for details.
+There are no tests, linters, or build steps beyond rendering — verification is "did `make cv` succeed and does the PDF look right".
