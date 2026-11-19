@@ -3,7 +3,7 @@ full_name: Saket Sinha
 location: Berlin, Germany
 nationality: German
 summary: >
-  I am a Embedded System Engineer with 14 years of experience.
+  I am an Embedded Systems Engineer with 14 years of experience.
 
 contact_details:
   email: saket.sinha89@gmail.com
@@ -29,7 +29,7 @@ experience:
     location: Berlin, Germany
     bullet_points:
       - Design and implementation of a distributed service for launching a cluster of VMs with a flexible virtual network.
-      - Developement of a compute platform for users providing a variety of GPUs for model training and deployment to offer out-of-the-box AI solutions.
+      - Development of a compute platform for users providing a variety of GPUs for model training and deployment to offer out-of-the-box AI solutions.
 
   - title: Member of Technical Staff
     company_name: AMD
@@ -60,10 +60,10 @@ experience:
   - title: SOFTWARE ENGINEER
     company_name: Safenet, Thales Group
     company_url: https://www.thalesgroup.com
-    dates: 13/2013 - 01/2015
+    dates: 12/2013 - 01/2015
     location: Noida, India
     bullet_points:
-      - Porting proprietary Encryption Linux Filesystem Driver the filesystem driver to newer kernel versions.
+      - Porting proprietary Encryption Linux Filesystem Driver to newer kernel versions.
       - Development of container based build system for building the driver on different Linux distros simultaneously.
       - Responsible for Debugging file system issues and Bug fixes and verification.
   - title: SOFTWARE ENGINEER
@@ -80,15 +80,15 @@ education:
   - school: Centre for Development of Advanced Computing
     field_of_study: Post-Graduate Diploma Embedded System and VLSI Design
     dates: 2011 - 2012
-  - school: Uttar Pradesh Technical University (UPTU)
-    field_of_study: Bachelor of Technology in Electronics and COmmunication
+  - school: Dr. A.P.J. Abdul Kalam Technical University (formerly Uttar Pradesh Technical University)
+    field_of_study: Bachelor of Technology in Electronics & Communication Engineering
     dates: 2007 - 2011
 
 skills: [C, C++, LLVM, RISC-V, Python, Bash, Computer Architecture, Scala/Chisel, Systemverilog, Verilog, Amaranth, Kicad]
 
 oss_projects:
   - title: "LibreCar Control"
-    description: LibreCar Control is a automotive exploration tool.
+    description: LibreCar Control is an automotive exploration tool.
     url: https://saketsinha.de/librecar-wiki/
     note: A handy tool that can emulate connections inside an automotive vehicle between different protocols and buses.
   - title: "VexRiscv-Debug"
